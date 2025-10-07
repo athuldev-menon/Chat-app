@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Public Chat Room</title>
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Public Chat Room</h1>
+      </header>
+      <main>
+        <div id="messages"></div>
+      </main>
+      <form id="chatForm">
+        <input id="user" placeholder="Your name" />
+        <input id="text" placeholder="Type a message" autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+    <script src="/static/chat.js"></script>
+  </body>
+</html>

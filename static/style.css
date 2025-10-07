@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #0f172a;
+  color: #e6eef8;
+  margin: 0;
+}
+#app {
+  width: 680px;
+  background: #07112a;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.6);
+}
+header {
+  margin-bottom: 12px;
+}
+#messages {
+  height: 410px;
+  overflow: auto;
+  background: #061022;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.03);
+}
+.message {
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  background: darkblue;
+}
+.message strong {
+  color: #597f9d;
+}
+.message .ts {
+  float: right;
+  color: #115eca;
+  font-size: 12px;
+}
+form {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+form input[type="text"],
+form input[type="text"],
+form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  background: #061022;
+  color: #e6eef8;
+}
+form button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #2563eb;
+  color: #fff;
+}
+#user {
+  width: 150px;
+}
